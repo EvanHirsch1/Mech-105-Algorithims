@@ -1,4 +1,8 @@
-# Mech-105-Algorithims
-#### All the algorithims made in the Mech 105 Class at CSU, created with Matlab#
-## (1/3) Simpsons Rule Numerical Integration
+# **Mech-105-Algorithims**
+#### All the algorithims made in the Mech 105 Class at CSU, developed in matlab and tested through examples. This repository is used to store all the algorithims that were made from scratch, noting along the way potential errors and limitations in each.
+### **(1/3) Simpsons Rule Numerical Integration**
 ##### This algorithim asks for an input of an x and y table and evaluates the integral over the range given. This is a numerical method so not the answer will not be exact. Keep in mind, this is numerical integration not analytical integration so using an equation as oppose to a set of x and y tables will result in an error.
+### **False Position Root Finding Method**
+##### This algorithim determines the root of a given function based on an input of the lower and upper bounds that include the root as well as the number of iterations the user wants to perform along with the desired error. There needs to be atleast the first three inputs of a function, the lower bound, and the upper bound. The algorithim outputs the root location's x value, the function evaluated at the root, the approximate percent relative error, and the number of iterations performed. Use this method when finding the root of a function, the algorithim should allow any function to be input as long as it is done through matlab. The user needs to define the system though, either a syms x or @(x) for the function to work.
+### **LU Factorization of a Matrix**
+##### This algorithim factors any square matrix input through LU factorization. All that is needed is any square matrix to be input, and through the factorization of Guass Elimination the L U and P matrices are output, allowing for the determination of anything based off of those matrices. L contains the number used to cancel the first term in the Gauss Elimination and is a lower triangular matrix, the U stores the new Guass eliminated matrix, and the P matrix is used to keep track of the row switches if needed by pivoting.
